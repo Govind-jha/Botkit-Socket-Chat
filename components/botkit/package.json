@@ -1,0 +1,127 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "botkit@git+https://git@github.com/howdyai/botkit.git#dev/webchannel",
+        "scope": null,
+        "escapedName": "botkit",
+        "name": "botkit",
+        "rawSpec": "git+https://git@github.com/howdyai/botkit.git#dev/webchannel",
+        "spec": "git+https://git@github.com/howdyai/botkit.git#dev/webchannel",
+        "type": "hosted",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:howdyai/botkit.git#dev/webchannel",
+          "sshUrl": "git+ssh://git@github.com/howdyai/botkit.git#dev/webchannel",
+          "httpsUrl": "git+https://git@github.com/howdyai/botkit.git#dev/webchannel",
+          "gitUrl": "git://git@github.com/howdyai/botkit.git#dev/webchannel",
+          "shortcut": "github:howdyai/botkit#dev/webchannel",
+          "directUrl": "https://git@raw.githubusercontent.com/howdyai/botkit/dev%2Fwebchannel/package.json"
+        }
+      }
+    ]
+  ],
+  "_from": "git+https://git@github.com/howdyai/botkit.git#dev/webchannel",
+  "_id": "botkit@0.6.4",
+  "_inCache": true,
+  "_location": "/botkit",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "botkit@git+https://git@github.com/howdyai/botkit.git#dev/webchannel",
+    "scope": null,
+    "escapedName": "botkit",
+    "name": "botkit",
+    "rawSpec": "git+https://git@github.com/howdyai/botkit.git#dev/webchannel",
+    "spec": "git+https://git@github.com/howdyai/botkit.git#dev/webchannel",
+    "type": "hosted",
+    "hosted": {
+      "type": "github",
+      "ssh": "git@github.com:howdyai/botkit.git#dev/webchannel",
+      "sshUrl": "git+ssh://git@github.com/howdyai/botkit.git#dev/webchannel",
+      "httpsUrl": "git+https://git@github.com/howdyai/botkit.git#dev/webchannel",
+      "gitUrl": "git://git@github.com/howdyai/botkit.git#dev/webchannel",
+      "shortcut": "github:howdyai/botkit#dev/webchannel",
+      "directUrl": "https://git@raw.githubusercontent.com/howdyai/botkit/dev%2Fwebchannel/package.json"
+    }
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+https://git@github.com/howdyai/botkit.git#bdfe523f463948d9b5496d25fb572481a5f5b5e7",
+  "_shasum": "69d4bab6c08d229e0237abf5528b2a130a3045ac",
+  "_shrinkwrap": null,
+  "_spec": "botkit@git+https://git@github.com/howdyai/botkit.git#dev/webchannel",
+  "_where": "C:\\Users\\JHA\\GoWS\\src\\botkit-starter-web",
+  "author": {
+    "name": "ben@howdy.ai"
+  },
+  "bugs": {
+    "url": "https://github.com/howdyai/botkit/issues"
+  },
+  "dependencies": {
+    "async": "^2.1.5",
+    "back": "^1.0.1",
+    "body-parser": "^1.17.1",
+    "botbuilder": "^3.8.4",
+    "botkit-studio-sdk": "^1.0.2",
+    "ciscospark": "1.8.0",
+    "clone": "2.1.1",
+    "command-line-args": "^4.0.2",
+    "crypto": "0.0.3",
+    "debug": "^2.6.6",
+    "express": "^4.15.2",
+    "https-proxy-agent": "^2.0.0",
+    "jfs": "^0.2.6",
+    "localtunnel": "^1.8.2",
+    "md5": "^2.2.1",
+    "mustache": "^2.3.0",
+    "promise": "^8.0.0",
+    "request": "^2.81.0",
+    "requestretry": "^1.12.0",
+    "twilio": "^2.11.1",
+    "ware": "^1.3.0",
+    "ws": "^2.2.2"
+  },
+  "description": "Building blocks for Building Bots",
+  "devDependencies": {
+    "jest-cli": "^20.0.1",
+    "jscs": "^3.0.7",
+    "mocha": "^3.2.0",
+    "should": "^11.2.1",
+    "should-sinon": "0.0.5",
+    "sinon": "^2.1.0",
+    "winston": "^2.3.1"
+  },
+  "gitHead": "bdfe523f463948d9b5496d25fb572481a5f5b5e7",
+  "homepage": "http://howdy.ai/botkit",
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "keywords": [
+    "bots",
+    "chatbots",
+    "slack",
+    "cisco spark",
+    "facebook messenger",
+    "twilio ipm",
+    "microsoft bot framework"
+  ],
+  "license": "MIT",
+  "main": "lib/Botkit.js",
+  "name": "botkit",
+  "optionalDependencies": {},
+  "readme": "# [Botkit](https://botkit.ai) - Building Blocks for Building Bots\r\n\r\n[![npm](https://img.shields.io/npm/v/botkit.svg)](https://www.npmjs.com/package/botkit)\r\n[![David](https://img.shields.io/david/howdyai/botkit.svg)](https://david-dm.org/howdyai/botkit)\r\n[![npm](https://img.shields.io/npm/l/botkit.svg)](https://spdx.org/licenses/MIT)\r\n[![bitHound Overall Score](https://www.bithound.io/github/howdyai/botkit/badges/score.svg)](https://www.bithound.io/github/howdyai/botkit)\r\n\r\nBotkit is designed to ease the process of designing and running useful, creative bots that live inside messaging platforms.\r\nBots are applications that can send and receive messages, and in many cases, appear alongside their human counterparts as _users._\r\n\r\nSome bots talk like people, others silently work in the background, while others present interfaces much like modern mobile applications.\r\nBotkit gives developers the necessary tools for building bots of any kind! It provides an easy-to-understand interface for sending and receiving messages so that developers can focus on creating novel applications and experiences instead of dealing with API endpoints.\r\n\r\nOur goal with Botkit is to make bot building easy, fun, and accessible to anyone with the desire to create\r\na future filled with talking machines! We provide several tools to make this vision a reality:\r\n\r\n* [Botkit Studio](#start-with-botkit-studio), an integrated development environment for designing and building bots\r\n* [Starter Kits](#start-with-a-starter-kit), boilerplate applications pre-configured to work with popular platforms\r\n* [Botkit Core Library](#botkit-core-library), an SDK for creating conversational software\r\n* [Plugins and Middlewares](docs/readme-middlewares.md) that can extend and enhance your bot\r\n\r\nBotkit features a comprehensive set of tools to deal with popular messaging platforms, including:\r\n\r\n* [Slack](docs/readme-slack.md)\r\n* [Cisco Spark](docs/readme-ciscospark.md)\r\n* [Microsoft Teams](docs/readme-teams.md)\r\n* [Facebook Messenger and Facebook @Workplace](docs/readme-facebook.md)\r\n* [Twilio SMS Messaging](docs/readme-twiliosms.md)\r\n* [Twilio IP Messaging](docs/readme-twilioipm.md)\r\n* [Microsoft Bot Framework](docs/readme-botframework.md)\r\n* Yours? [info@howdy.ai](mailto:info@howdy.ai)\r\n\r\n---\r\n\r\n## [Start with Botkit Studio](https://studio.botkit.ai/signup)\r\n\r\nBotkit Studio is a hosted development environment for building bots with Botkit.\r\nDevelopers using Botkit Studio get the full capabilities of Botkit, with the addition of many powerful bot-building features such as:\r\n\r\n* All the code you need to get your bot online in minutes\r\n* A visual authoring environment for designing and managing dialog\r\n* A real-time message console for monitoring activity\r\n* APIs that enable content and features to be added to bots without additional code\r\n* Role-based, multi-user teams support\r\n* Detailed usage statistics\r\n* Built-in integrations with top plugins and platform tools\r\n\r\nClick below to sign up for a free developer account, [and please contact us if you have any questions.](mailto:info@howdy.ai)\r\n\r\n**[![Sign up for Botkit Studio](docs/studio.png)](https://studio.botkit.ai/signup?code=readme)**\r\n\r\n\r\n## Start with a Starter Kit\r\n\r\nBased on the best practices we've established since the release of Botkit, our starter kits include\r\neverything you need to bring a Botkit bot online in minutes. Don't start from scratch -- start with a\r\nwell structured, extensible application boilerplate!\r\n\r\nThese starter kits are easy to set up and run on your own hosting service, but the fastest (and cheapest) way to get\r\nstarted is to deploy directly to [Glitch](http://glitch.com), a free-to-use code editor and hosting system!\r\n\r\nNote: While [using Botkit Studio](https://studio.botkit.ai) is highly recommended, these starter kits can be used without registering for Studio as well.\r\n\r\n> ### [Slack Bot Starter Kit](https://github.com/howdyai/botkit-starter-slack)\r\n> The Slack starter kit contains everything you need to create a multi-team Slack application,\r\nsuitable for internal use or submission to [Slack's app store.](https://slack.com/apps)\r\n> #### [![Remix on Glitch](docs/glitch.png)](https://glitch.com/~botkit-slack)\r\n\r\n> ### [Cisco Spark Bot Starter Kit](https://github.com/howdyai/botkit-starter-ciscospark)\r\n> Build a bot inside Cisco Spark's collaboration and messaging platform. Bots built with the starter kit\r\nare ready to submit to [Cisco Spark's Depot app store](https://depot.ciscospark.com/).\r\n> #### [![Remix on Glitch](docs/glitch.png)](https://glitch.com/~botkit-ciscospark)\r\n\r\n> ### [Microsoft Teams Bot Starter Kit](https://github.com/howdyai/botkit-starter-teams)\r\n> Connect your bot to Microsoft Teams, and it can do things like no other bot, like create tabs, compose extensions, and other deep integrations into the messaging UI.\r\n> #### [![Remix on Glitch](docs/glitch.png)](https://glitch.com/~botkit-teams)\r\n\r\n> ### [Facebook Bot Starter Kit](https://github.com/howdyai/botkit-starter-facebook)\r\n> The Facebook starter kit contains all the code necessary to stand up a Facebook bot on either Facebook Messenger, or Facebook Work Chat. With just a few pieces of configuration, set up a bot that automatically responds to messages sent to your Facebook page.\r\n> #### [![Remix on Glitch](docs/glitch.png)](https://glitch.com/~botkit-facebook)\r\n\r\n# Developer & Support Community\r\n\r\nJoin our thriving community of Botkit developers and bot enthusiasts at large.\r\nOver 4500 members strong, [our open Slack group](https://community.botkit.ai) is\r\n_the place_ for people interested in the art and science of making bots.\r\nCome to ask questions, share your progress, and commune with your peers!\r\n\r\nYou can also find help from members of the Botkit team [in our dedicated Cisco Spark room](https://eurl.io/#SyNZuomKx)!\r\n\r\nWe also host a [regular meetup and annual conference called TALKABOT.](https://talkabot.ai)\r\nCome meet and learn from other bot developers! [Full video of our 2016 event is available on Youtube.](https://www.youtube.com/playlist?list=PLD3JNfKLDs7WsEHSal2cfwG0Fex7A6aok)\r\n\r\n\r\n\r\n# Botkit Core Library\r\n\r\nBotkit is designed around the idea of giving developers a language-like interface for building bots.\r\nInstead of dealing directly with messaging platform protocols and APIs, Botkit provides semantic functions\r\ndesigned around the normal parts of human conversation: _hearing things_ and _saying things_.\r\n\r\nOn top of these basic build blocks, Botkit offers a powerful system for creating and managing dynamic\r\nconversational interfaces, and tapping into cutting edge technology like artificial intelligence (AI)\r\nand natural language understanding (NLP/NLU) tools.\r\n\r\nPractically speaking, this results in code that looks like this:\r\n\r\n```javascript\r\n// respond when a user sends a DM to the bot that says \"hello\"\r\ncontroller.hears('hello', 'direct_message', function(bot, message) {\r\n    bot.reply(message, 'Hello human.');\r\n});\r\n```\r\n\r\nAll Botkit bots, built for any platform, use these same building blocks. This means developers are not required\r\nto learn the intricacies of each platform, and can build bots that port easily between them.\r\n\r\nBotkit can be used to build a stand-alone application, or it can be integrated into existing Node.js\r\napps to offer a bot experience, or to send application notifications into messaging apps. It is released\r\nunder the [MIT open source license](LICENSE.md), which means developers are free to use it any way they choose,\r\nin any type of project.\r\n\r\n\r\n## Install Botkit from NPM or Github\r\n\r\nBotkit is available via NPM.\r\n\r\n```bash\r\nnpm install --save botkit\r\n```\r\n\r\nYou can also check out Botkit directly from Git.\r\nIf you want to use the example code and included bots, it may be preferable to use Github over NPM.\r\n\r\n```bash\r\ngit clone git@github.com:howdyai/botkit.git\r\n```\r\n\r\nAfter cloning the Git repository, you have to install the node dependencies. Navigate to the root of your cloned repository and use npm to install all necessary dependencies.\r\n```bash\r\nnpm install\r\n```\r\n\r\nUse the `--production` flag to skip the installation of devDependencies from Botkit. Useful if you just wish to run the example bot.\r\n```bash\r\nnpm install --production\r\n```\r\n\r\n## Running Tests\r\n\r\nTo run tests, use the npm `test` command. Note: you will need dev dependencies installed using `npm install`.\r\n\r\n```bash\r\nnpm test\r\n```\r\n\r\nTo run tests in watch mode run:\r\n\r\n```bash\r\nnpm run test-watch\r\n```\r\n\r\nTests are run with [Jest](https://facebook.github.io/jest/docs/getting-started.html). You can pass Jest command line options after a `--`.\r\nFor example to have Jest bail on the first error you can run\r\n\r\n```bash\r\nnpm test -- --bail\r\n```\r\n\r\n## Documentation\r\n\r\n* [Get Started](docs/readme.md)\r\n* [Botkit Studio API](docs/readme-studio.md)\r\n* [Function index](docs/readme.md#developing-with-botkit)\r\n* [Extending Botkit with Plugins and Middleware](docs/middleware.md)\r\n  * [Message Pipeline](docs/readme-pipeline.md)\r\n  * [List of current plugins](docs/readme-middlewares.md)\r\n* [Storing Information](docs/storage.md)\r\n* [Logging](docs/logging.md)\r\n* Platforms\r\n  * [Slack](docs/readme-slack.md)\r\n  * [Cisco Spark](docs/readme-ciscospark.md)\r\n  * [Microsoft Teams](docs/readme-teams.md)\r\n  * [Facebook Messenger](docs/readme-facebook.md)\r\n  * [Twilio SMS](docs/readme-twiliosms.md)\r\n  * [Twilio IPM](docs/readme-twilioipm.md)\r\n  * [Microsoft Bot Framework](docs/readme-botframework.md)\r\n* Contributing to Botkit\r\n  * [Contributing to Botkit Core](CONTRIBUTING.md)\r\n  * [Building Middleware/plugins](docs/howto/build_middleware.md)\r\n  * [Building platform connectors](docs/howto/build_connector.md)\r\n\r\n# About Botkit\r\n\r\nBotkit is a product of [Howdy](https://howdy.ai).\r\n\r\nFor support, check out [the Developer Community](#developer--support-community) and find our team in the #Botkit channel.\r\n",
+  "readmeFilename": "readme.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/howdyai/botkit.git"
+  },
+  "scripts": {
+    "pretest": "jscs ./lib/ ./__test__ --fix",
+    "test": "jest --coverage",
+    "test-legacy": "mocha ./tests/*.js",
+    "test-watch": "jest --watch"
+  },
+  "types": "lib/Botkit.d.ts",
+  "version": "0.6.4"
+}

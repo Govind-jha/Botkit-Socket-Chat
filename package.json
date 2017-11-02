@@ -1,0 +1,20 @@
+{
+  "name": "botkit-socketbot",
+  "version": "1.0.0",
+  "description": "A chatbot using botkit and express server, this bot supports webhook as a channel",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "keywords": [
+    "botkit",
+    "express",
+    "socket",
+    "chat"
+  ],
+  "author": "kumar govind jha",
+  "license": "ISC",
+  "dependencies": {
+    "node-env-file": "^0.1.8"
+  }
+}
